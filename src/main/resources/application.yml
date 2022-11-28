@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    password: yourpassword
+    url: jdbc:mysql://localhost:3306/yourDatabaseName
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    show-sql: true
+
+
